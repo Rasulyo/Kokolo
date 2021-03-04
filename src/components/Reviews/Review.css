@@ -1,0 +1,9 @@
+body {
+    background-image: black;
+}
+
+.reviews {
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: 60px 15px;
+}

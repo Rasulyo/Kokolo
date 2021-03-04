@@ -1,5 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+*{
+  font-family: 'Akaya Telivigala', cursive !important;
+}
 .App {
   text-align: center;
+  font-family: 'Akaya Telivigala !important', cursive !important;
 }
 
 .App-logo {
@@ -22,6 +28,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {

@@ -1,0 +1,46 @@
+.head{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+}
+button {
+    /* position: absolute; */
+    /* left: 250px; */
+    /* top: 400px; */
+}
+/* button:hover {
+    font-size: large;
+    color: aqua;
+} */
+img{
+    filter: brightness(40%);
+    background-size: contain;
+    width: 100%;    
+    max-height: 800px;
+    height: 100%;
+}
+/* h1{
+    font-size: 70px;
+    position: absolute;
+    left: 250px;
+    top: 300px;
+} */
+/* .text {
+    display: none;
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 450px;
+
+} */
+.text:hover{
+    display: block;
+}
+.btn-learn{
+    position: absolute;
+    top: 500;
+    left: 200;
+}
