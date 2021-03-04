@@ -1,15 +1,6 @@
 {
   "balloon": [
     {
-      "name": "Exclusive Flight",
-      "description": "From Take-off to\nlanding the flight is\nMin. 1 and a half hours\nin our Exclusive Flights",
-      "price": "800",
-      "type": "Aircraft-style",
-      "program": "\n\nWe fly through the Cappadocian Valleys for one and a half hours in a private balloon up to four passengers. Our personal touch and professional experience will definitely make your flight “a memorable event” for long years to come.\n\nOur Vista basket is the only example in the world for hot air balloon flights. Its a seated basket which you can enjoy the scenery while you are having your champagne. Ask for 2020 Special Rates. Max. capacity of the basket is 4 persons and it can be one person or 4 persons.\n\nYour exclusive balloon ride will be created to your desires and wishes from the time we collect you from your location",
-      "image": "https://ae01.alicdn.com/kf/HTB1FRemRwDqK1RjSZSyq6yxEVXau.jpg",
-      "id": 1
-    },
-    {
       "name": "Comfort Flight",
       "description": "he idea of Ultra Comfort Flight is max. 8 people in a 12 or 16 people size basket as the same as our previous Comfort Flight and 75 minutes to 90 minutes flight for our guests to enjoy Cappadocia like our previous Deluxe Flights.",
       "price": "1200",
@@ -17,33 +8,6 @@
       "program": "PICK UP FROM THE HOTEL\nWe make your transfer with luxury mini buses from your hotel to our restaurant one hour prior to sunrise. We will inform you the day before about the pick-up time in the morning from your hotel.\nBREAKFAST\nDue to Covid 19 restrictions can not offer you open buffet breakfast, but we offer you filtered coffee and croissant in our take-off area.\n\nWATCHING THE INFLATION\nAfter the decision of the launch site by our pilots, we transfer the passengers. To offer the best possible flight and the experience, we choose the take-off site for the day’s flight according to the direction and the strength of the wind. One of life’s most fascinating sights is the set-up and inflation of a hot air balloon.",
       "image": "https://images.pexels.com/photos/207241/pexels-photo-207241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "id": 2
-    },
-    {
-      "name": "Standart Flight",
-      "description": "From Take-off to\nlanding the flight is\nMin. 1 hour\nin our Standard Flights\n",
-      "price": "200$",
-      "type": "standart",
-      "program": "The flight is minimum one hour and we will ascend anywhere from rock formations to several thousand feet. Once you’re airborne your pilot will point out the spectacular sites of Cappadocia, from Red Valley to the Goreme and vineyards to rock formations, absolutely beauty of the nature. Our flying area has many wonderful things to see.\n\nDepending on the number of the people that sign up for the standard balloon ride, we use basket with a capacity of 20 people. The flight will last minimum 60 minutes and entire balloon adventure lasts about 150 minutes.",
-      "image": "https://images.pexels.com/photos/3185493/pexels-photo-3185493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "id": 3
-    },
-    {
-      "name": "Standart Flight",
-      "description": "From Take-off to\nlanding the flight is\nMin. 1 hour\nin our Standard Flights\n",
-      "price": "200$",
-      "type": "standart",
-      "program": "The flight is minimum one hour and we will ascend anywhere from rock formations to several thousand feet. Once you’re airborne your pilot will point out the spectacular sites of Cappadocia, from Red Valley to the Goreme and vineyards to rock formations, absolutely beauty of the nature. Our flying area has many wonderful things to see.\n\nDepending on the number of the people that sign up for the standard balloon ride, we use basket with a capacity of 20 people. The flight will last minimum 60 minutes and entire balloon adventure lasts about 150 minutes.",
-      "image": "https://images.pexels.com/photos/3185493/pexels-photo-3185493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "id": 3
-    },
-    {
-      "name": "Standart Flight",
-      "description": "From Take-off to\nlanding the flight is\nMin. 1 hour\nin our Standard Flights\n",
-      "price": "200$",
-      "type": "standart",
-      "program": "The flight is minimum one hour and we will ascend anywhere from rock formations to several thousand feet. Once you’re airborne your pilot will point out the spectacular sites of Cappadocia, from Red Valley to the Goreme and vineyards to rock formations, absolutely beauty of the nature. Our flying area has many wonderful things to see.\n\nDepending on the number of the people that sign up for the standard balloon ride, we use basket with a capacity of 20 people. The flight will last minimum 60 minutes and entire balloon adventure lasts about 150 minutes.",
-      "image": "https://images.pexels.com/photos/3185493/pexels-photo-3185493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "id": 3
     },
     {
       "name": "Standart Flight",
@@ -65,39 +29,10 @@
   ],
   "calls": [
     {
-      "name": "Rasul",
-      "phone": "9996777777",
-      "type": "call",
-      "id": 3,
-      "status": false
-    },
-    {
-      "name": "Kubat",
-      "phone": "00000000",
-      "id": 4
-    },
-    {
-      "name": "Temir",
-      "phone": "11111111111",
-      "type": "",
-      "id": 5
-    },
-    {
-      "name": " Name",
-      "phone": "123456",
-      "type": "type",
-      "id": 6
-    },
-    {
-      "name": "Group",
-      "phone": "1231321321321321",
-      "id": 7
-    },
-    {
-      "name": "NNN",
-      "phone": "123456",
-      "type": "456456456",
-      "id": 8
+      "name": "Kubat kubatov",
+      "phone": "-235645646",
+      "type": "call back",
+      "id": 14
     }
   ]
 }

@@ -1,9 +1,8 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import Cards from 'react-credit-cards';
 import 'react-credit-cards/es/styles-compiled.css';
 import './Payment.css';
-import {Link} from 'react-router-dom';
+
 
 
 export default class PaymentForm extends React.Component {
@@ -71,9 +70,9 @@ export default class PaymentForm extends React.Component {
                     />
                 </form>
                 <div className="pay__btn" style={{display: "flex", flexWrap: "wrap", justifyContent: "center",}}>
-                    <Link to ='/'>
+                    {/* <Link to ='/'>
                     <Button type="submit">Оплатить</Button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
             </>

@@ -112,9 +112,7 @@ export default function AddBallons() {
                         onSubmit={onSubmit}
                     >
 
-                        {({
-
-                        }) => (
+                        {() => (
                             <Form className={classes.form}>
 
                                 <Typography variant="h6" style={{ textAlign: 'center', marginBottom: 15 }}>

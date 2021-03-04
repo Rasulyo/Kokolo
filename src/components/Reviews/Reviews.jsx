@@ -1,22 +1,13 @@
 import React from 'react';
-import {Carousel,Container,Image} from 'react-bootstrap';
+import {Carousel,Image} from 'react-bootstrap';
 import './Review.css';
-import { makeStyles } from '@material-ui/core/styles';
-
-
-
-const useStyles = makeStyles({
-    reviews: {
-        margin: '50px 80px',
-        display: 'flex',
-        justifyContent: 'flex-end'
-    }
-})
+import Header from '../../containers/Header/Header';
 
 const Reviews = () => {
     return (
         <>
-            <Carousel >
+            <Header />
+            <Carousel style={{marginTop: "-60px"}} >
                 <Carousel.Item interval={1000}>
                     <Image
                         className="d-block w-100"

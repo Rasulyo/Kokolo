@@ -116,7 +116,7 @@ const Header = () => {
                                     <Nav>
                                         <Link to="/"><img style={{ maxHeight: '30px', maxWidth: "30px", marginLeft: "5px" }} alt="" src={'https://img.icons8.com/ios/452/hot-air-balloon.png'} /></Link>
                                         <Link to="/">
-                                            <Typography>Kokolo</Typography>
+                                            <Typography>Kөkөlө</Typography>
                                         </Link>
                                     </Nav>
                                     <Nav className="mx-auto">

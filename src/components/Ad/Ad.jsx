@@ -1,5 +1,4 @@
 import React, { useState, useContext } from 'react';
-import classes from './Add.module.css'
 import bal from '../../assets/images/bal.jpg'
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
@@ -12,6 +11,7 @@ import Draggable from 'react-draggable';
 import { Modal, ModalBody, Form } from 'react-bootstrap';
 import ModalHeader from "react-bootstrap/ModalHeader";
 import { ballonContext } from '../../contexts/ContextBallon';
+import Header from '../../containers/Header/Header';
 
 
 
@@ -63,9 +63,20 @@ const Ad = () => {
 
     return (
         <div>
-            <img src={bal} />
-
-            <div style={{ background: "url(https://www.champagne-flights.co.uk/ge/images/home/img-01.jpg)", backgroundSize: "contain", backgroundRepeat: "no-repeat", minHeight: "800px", height: "100%" }}>
+            <Header />
+            <img  
+            style={{
+                backgroundSize: "contain", 
+            backgroundRepeat: "no-repeat", 
+            maxHeight: "800px", height: "100%",
+            maxWidth: "1600px", width: "100%"
+            }}
+            alt="balon" src={bal} />
+            <div style={{ background: "url(https://www.champagne-flights.co.uk/ge/images/home/img-01.jpg)", 
+            
+            backgroundSize: "contain", 
+            backgroundRepeat: "no-repeat", 
+            minHeight: "800px", height: "100%" }}>
 
                 <div style={{ background: "linear-gradient(to right, #ffeeee, #ddefbb)", marginTop: "-50px" }} >
                     <Button style={{ display: "flex", margin: "0 auto" }} variant="outlined" color="primary" onClick={handleClickOpen}>

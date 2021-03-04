@@ -28,7 +28,6 @@ const ContextBallonProvider = ({ children }) => {
 
     const getBallons = async () => {
         const { data } = await axios(`${API}`)
-        console.log(data)
         dispatch({
             type: "GET_BALLONS",
             payload: data
@@ -55,7 +54,6 @@ const ContextBallonProvider = ({ children }) => {
         await axios.patch(`${API}/${newBallons.id}`, newBallons)
         getBallons()
     }
-// calls of modal
 
     const getCallData = async () => {
         let { data } = await axios(`${API_CALL}`)

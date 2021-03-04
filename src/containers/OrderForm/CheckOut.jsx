@@ -11,7 +11,7 @@ import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
 import OrderForm from './OrderForm'
-import PaymentForm from './PaymentForm';
+import PaymentForm from '../../components/Card/Card';
 import Header from '../Header/Header';
 // import Review from './Review';
 
@@ -19,8 +19,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Kokolo
+      <Link to="/" color="inherit">
+      Kөkөlө
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -70,7 +70,7 @@ const steps = ['Info', 'Payment'];
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return <OrderForm/>;
+      return <OrderForm />;
     case 1:
       return <PaymentForm />;
     // case 2:
@@ -91,17 +91,15 @@ export default function Checkout() {
   const handleBack = () => {
     setActiveStep(activeStep - 1);
   };
-  
-    let newData = JSON.parse(localStorage.getItem('tasks-data'))
-    console.log(newData)
 
+  let newData = JSON.parse(localStorage.getItem('tasks-data'))
 
   return (
     <React.Fragment>
       <CssBaseline />
       <AppBar position="absolute" color="default" className={classes.appBar}>
         <Toolbar>
-         <Header />
+          <Header />
         </Toolbar>
       </AppBar>
       <main className={classes.layout}>
@@ -123,39 +121,41 @@ export default function Checkout() {
                   Thank you for your order.
                 </Typography>
                 <Typography variant="subtitle1">
-                  Your order number is #{new Date().getTime()}. 
+                  Your order number is #{new Date().getTime()}.
                   {
                     newData.map(item => (
-                      <ul key={item.id} style={{listStyle: "none"}}> 
+                      <ul key={item.id} style={{ listStyle: "none" }}>
                         <li>You got:{item.name}</li>
-                        <li>Price:{item.price + "$"}</li>
+                        <li>Price:{item.price}</li>
                       </ul>
                     ))
                   }
                 </Typography>
               </React.Fragment>
             ) : (
-              <React.Fragment>
-                {getStepContent(activeStep)}
-                <div className={classes.buttons}>
-                  {activeStep !== 0 && (
-                    <Button onClick={handleBack} className={classes.button}>
-                      Back
-                    </Button>
-                  )}
-                  <Link to ='/payment'>
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={handleNext}
-                    className={classes.button}
-                  >
-                    {activeStep === steps.length - 1 ? 'Pay' : 'Next'}
-                  </Button>
-                  </Link>
-                </div>
-              </React.Fragment>
-            )}
+                <React.Fragment>
+                  {getStepContent(activeStep)}
+                  <div className={classes.buttons}>
+                    {activeStep !== 0 && (
+                      <Button onClick={handleBack} className={classes.button}>
+                        Back
+                      </Button>
+                    )}
+                    <Link to='/payment'>
+                      <Button
+                        variant="contained"
+                        color="primary"
+                        onClick={handleNext}
+                        
+                        className={classes.button}
+                      >
+                        {activeStep === steps.length - 1 ? 'Pay' : 'Next'}
+                      </Button>
+                     
+                    </Link>
+                  </div>
+                </React.Fragment>
+              )}
           </React.Fragment>
         </Paper>
         <Copyright />

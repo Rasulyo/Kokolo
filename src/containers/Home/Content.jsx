@@ -85,9 +85,7 @@ const Content = (props) => {
                                     <p>Ad</p>
                                 </Link>
 
-                                {/* <Link to="/certificate" style={{ textDecoration: "none" , color: "black"}}>
-                                    <p>Certificate </p>
-                                </Link> */}
+                              
                             </div>
                         </div>
                         <div style={{ textAlign: "center", paddingTop: "100px" }}>

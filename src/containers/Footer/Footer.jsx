@@ -10,33 +10,33 @@ const Footer = () => {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Air Baloon</h2>
-            <Link to='./'>How it works</Link>
-            <Link to='./'>Testimonials</Link>
-            <Link to='./'>Investors</Link>
-            <Link to='./contacts'>Term of Service</Link>
+            <Link to='/'>How it works</Link>
+            <Link to='/'>Testimonials</Link>
+            <Link to='/'>Investors</Link>
+            <Link to='/contacts'>Term of Service</Link>
           </div>
           <div className="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to='./'>Contact</Link>
-            <Link to='./'>Support</Link>
-            <Link to='./'>Destination</Link>
-            <Link to='./'>Sponsorships</Link>
+            <Link to='/'>Contact</Link>
+            <Link to='/'>Support</Link>
+            <Link to='/'>Destination</Link>
+            <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Video</h2>
-            <Link to='./'>Agency</Link>
-            <Link to='./'>Terms</Link>
-            <Link to='./'>JS</Link>
-            <Link to='./'>Inf</Link>
+            <Link to='/'>Agency</Link>
+            <Link to='/'>Terms</Link>
+            <Link to='/'>JS</Link>
+            <Link to='/'>Inf</Link>
           </div>
           <div className="footer-link-items">
             <h2>Media</h2>
-            <Link to='./'>Inst</Link>
-            <Link to='./'>FB</Link>
-            <Link to='./'>Youtube</Link>
-            <Link to='./'>Twitter</Link>
+            <Link to='/'>Inst</Link>
+            <Link to='/'>FB</Link>
+            <Link to='/'>Youtube</Link>
+            <Link to='/'>Twitter</Link>
           </div>
         </div>
       </div>

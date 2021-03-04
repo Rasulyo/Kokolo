@@ -29,35 +29,20 @@ const BallonList = () => {
     }))
 
     const { balloon, getBallons, delBallons, editBallons } = useContext(ballonContext);
-    console.log(balloon)
-
     const classes = useStyles()
 
     useEffect(() => {
         getBallons()
     }, [])
 
-    // const [detail, setDetail] = useState(false)
-    // const handleShow = setDetail(true)
-    // const handleClose = setDetail(false)
-
     return (
         <div>
             <Header />
-            {/* <TextField
-                fullWidth={true}
-                variant={'outlined'}
-                style={{ maxWidth: '50%', opacity: "0.2", margin: '0 auto', display: 'block' }}
-                placeholder="Search" /> */}
-
             <Grid container maxWidth="lg" spacing={2} className={classes.container} >
-
                 {
-
                     adminView ? (
                         balloon.map(item => (
                             <Grid item xs={12} sm={12} lg={12} key={item.id}>
-
                                 <BallonCard data={item}>
                                     <IconButton
                                         onClick={() => delBallons(item.id)}>
@@ -70,35 +55,20 @@ const BallonList = () => {
                                             <EditIcon />
                                         </IconButton>
                                     </Link>
-                                    {/* <Likes/> */}
-                                    <Link to={`/view`}>
-                                        <IconButton>
-
-                                        </IconButton>
-                                    </Link>
-                                    <IconButton>
-                                        {/* <Typography onClick={handleShow}>Detail</Typography> */}
-                                    </IconButton>
                                 </BallonCard>
                             </Grid>
-
                         ))
                     ) : ((
                         balloon.map(item => (
                             <Grid item xs={12} sm={12} lg={12} key={item.id}>
-
                                 <BallonCard data={item}>
                                 </BallonCard>
-
-
-                                
                             </Grid>
                         ))
                         ))
                 }
 
             </Grid>
-            {/* <ProductsPagination count={Math.ceil(count / 6)} page={page} onChange={onPaginationChange} /> */}
         </div>
     )
 }
